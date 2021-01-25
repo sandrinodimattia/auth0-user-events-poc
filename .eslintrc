@@ -28,6 +28,10 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
+        "packageDir": [
+          "./packages/log-handler/",
+          "./"
+        ],
         "devDependencies": [
           "/packages/*/test/*.ts",
           "/packages/*/test/**/*.ts"
