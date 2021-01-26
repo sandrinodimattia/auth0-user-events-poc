@@ -15,8 +15,8 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "packageDir": ["./packages/cli/", "./packages/log-handler/", "./"],
-        "devDependencies": ["./webpack.config.js", "./test/*.ts", "./test/**/*.ts"]
+        "packageDir": ["./packages/cli/", "./packages/logs-publisher/", "./"],
+        "devDependencies": ["./packages/logs-publisher/rollup.config.js", "./test/*.ts", "./test/**/*.ts"]
       }
     ]
   }
