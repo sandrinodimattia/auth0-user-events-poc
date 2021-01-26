@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@sandrino/cli",
   "version": "1.0.0",
   "description": "CLI application which receives Auth0 events",
   "main": "index.js",
